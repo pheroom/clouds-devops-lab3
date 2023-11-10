@@ -6,4 +6,4 @@ COPY ./my-app /app/
 
 RUN npm install
 
-RUN npm start
+CMD npm start
